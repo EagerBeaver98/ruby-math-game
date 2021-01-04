@@ -37,3 +37,8 @@ while p1.score > 0 && p2.score > 0
 end
 
 puts "---GAME OVER---"
+if p1.score < 1
+  puts "#{p2.name} Wins!"
+elsif p2.score < 1
+  puts "#{p1.name} Wins!"
+end
