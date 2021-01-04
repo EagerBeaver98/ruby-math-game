@@ -35,3 +35,5 @@ while p1.score > 0 && p2.score > 0
   puts "Lives Remaining: #{p1.name} #{p1.score}/3 #{p2.name} #{p2.score}/3"
 
 end
+
+puts "---GAME OVER---"
